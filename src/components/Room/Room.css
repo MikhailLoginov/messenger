@@ -1,0 +1,58 @@
+.room {
+    margin: 40px 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.room:nth-child(3n) > a {
+    color: rgb(108, 108, 233);
+}
+
+.room:nth-child(3n-1) > a {
+    color: rgb(111, 206, 209);
+}
+
+.room:nth-child(3n-2) > a {
+    color: rgb(200, 129, 209);
+}
+
+.room:nth-child(3n):hover {
+    background-color: rgb(108, 108, 233);
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.room:nth-child(3n):hover > a {
+    color: white;
+    text-decoration: none;
+}
+
+.room:nth-child(3n-1):hover {
+    background-color: rgb(111, 206, 209);
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.room:nth-child(3n-1):hover > a {
+    color: white;
+    text-decoration: none;
+}
+
+.room:nth-child(3n-2):hover {
+    background-color: rgb(200, 129, 209);
+    transition: 0.5s;
+    border-radius: 5px;
+}
+
+.room:nth-child(3n-2):hover > a {
+    color: white;
+    text-decoration: none;
+}
+
+.room:nth-child(3n-1) > a {
+    color: rgb(111, 206, 209);
+}
+
+.room:nth-child(3n-2) > a {
+    color: rgb(200, 129, 209);
+}
